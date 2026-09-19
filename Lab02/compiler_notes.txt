@@ -1,0 +1,8 @@
+CSC241 Lab 02 - Compiler Notes
+
+Task 3:
+I attempted to overload enroll(String) by changing only its return type.
+
+The compiler rejected it because Java does not consider the return type part of a method signature.
+
+After recording the error, I removed/commented the invalid method so the final program could compile successfully.

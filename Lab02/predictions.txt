@@ -1,0 +1,78 @@
+CSC241 Lab 02 Predictions
+
+TASK 1
+Before changing s2:
+s1 credits = 12
+s2 credits = 15
+s3 credits = 10
+
+After changing s2.completedCredits to 20:
+s1 credits = 12
+s2 credits = 20
+s3 credits = 10
+
+Reason:
+Only s2 changes because each Student object has its own instance variables.
+
+
+TASK 2
+Initial:
+s1 credits = 12
+s2 credits = 15
+
+After addCredits:
+s1 credits = 15
+s2 credits = 20
+
+Remaining credits for degreeCredits = 130:
+s1 = 115
+s2 = 110
+
+
+TASK 3
+enroll("CSC241") -> enroll(String)
+enroll("CSC241", 2) -> enroll(String, int)
+enroll(241) -> enroll(int)
+
+Invalid:
+enroll()
+enroll("241", "2")
+
+These calls have no matching method.
+
+
+TASK 4
+Experiment A:
+Before = 10
+Inside method = 99
+After = 10
+
+Experiment B:
+Before = 20
+Inside method = 99
+After = 99
+
+Experiment C:
+Before = Abeer
+Inside method = Temporary
+After = Abeer
+
+The argument value is copied into the parameter.
+
+
+TASK 5
+Initial:
+Image Classification = 10/20
+Chatbot Training = 5/15
+
+After running epochs:
+Image Classification = 13/20
+Chatbot Training = 11/15
+
+Remaining:
+Image Classification = 7
+Chatbot Training = 4
+
+After pass-by-value mutation:
+Image Classification = 15/20
+Chatbot Training = 11/15
